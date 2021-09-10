@@ -1,6 +1,7 @@
 # portfolio
-My personal portfolio
+
+[Website](https://albineriksson02.github.io/portfolio)
 
 ## Resources
-https://tablericons.com/
-https://startbootstrap.com/theme/freelancer
+[Icons](https://tablericons.com/)<br>
+[Bootstrap](https://startbootstrap.com/theme/freelancer)
