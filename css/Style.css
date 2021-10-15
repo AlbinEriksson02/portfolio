@@ -39,3 +39,7 @@ font-size: 24px;
   font-size: 32px;
 
 }
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
