@@ -67,3 +67,40 @@ width: 1em;
   background-color:#00477f;
 
 }
+
+.logo {
+  position: relative  ;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 100%;
+overflow: hidden;
+  z-index: 100000;
+}
+
+.logo::before {
+  content: "";
+  background: url(../assets/img/avataaars.png);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  background-size: cover;
+}
+
+.logo::after {
+  content: '';
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background-color: 	hsla(199, 40%, 72% , 0.5);
+  bottom: 0;
+  left: -50%;
+  border-radius: 35%;
+  animation: waves 5s ease-in-out alternate infinite;
+}
+
+@keyframes waves {
+  to {
+    transform: translateY(-50%) rotate(540deg);
+  }
+}
