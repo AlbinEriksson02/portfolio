@@ -73,9 +73,10 @@ width: 1em;
   width: 15rem;
   height: 15rem;
   border-radius: 100%;
-overflow: hidden;
+overflow:hidden;
   z-index: 100000;
   margin-bottom: 1vh;
+  
 }
 
 .logo::before {
@@ -86,7 +87,8 @@ overflow: hidden;
   height: 100%;
   left: 0%;
   background-size: cover;
-  border: none;
+  border-radius: 50%;
+  border: 10px solid #00477f;
 }
 
 .logo::after {
